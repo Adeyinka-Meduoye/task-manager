@@ -55,40 +55,6 @@ This enables predictive back gestures for Android 13+.
 Run the App:Connect a device or emulator and run:
 flutter run
 
-
-
-Project Structure
-todo_app/
-├── lib/
-│   ├── models/
-│   │   └── todo.dart           # Todo model with serialization
-│   ├── services/
-│   │   ├── notification_service.dart  # Handles local notifications
-│   │   └── storage_service.dart       # Manages SharedPreferences
-│   ├── viewmodels/
-│   │   ├── theme_viewmodel.dart       # Manages theme state
-│   │   └── todo_viewmodel.dart        # Manages todo state and logic
-│   ├── views/
-│   │   ├── screens/
-│   │   │   └── home_screen.dart       # Main screen with todo list
-│   │   └── widgets/
-│   │       └── todo_input.dart        # Input widget for adding todos
-│   │       └── todo_item.dart         # Widget for displaying a single todo
-│   ├── navigation/
-│   │   └── app_router.dart            # Navigation setup (if used)
-│   └── main.dart                      # App entry point
-├── test/
-│   ├── mocks.dart                     # Mock classes for testing
-│   ├── viewmodels/
-│   │   └── todo_viewmodel_test.dart   # Tests for TodoViewModel
-│   └── views/
-│       └── screens/
-│           └── home_screen_test.dart  # Tests for HomeScreen
-├── android/                           # Android-specific configurations
-├── ios/                               # iOS-specific configurations
-├── pubspec.yaml                       # Dependencies and project config
-└── README.md                          # This file
-
 Usage
 
 Add a Todo:
