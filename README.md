@@ -1,6 +1,6 @@
-Task Manager App
+Medus Task Manager App
 Overview
-Task Manager is a Flutter-based mobile application designed to help users organize and manage tasks efficiently. Built with a clean MVVM (Model-View-ViewModel) architecture, it uses Riverpod for state management and go_router for navigation. The app allows users to create, edit, delete, and filter tasks by priority and category, view task statistics, and customize settings like theme mode.
+Medus Task Manager is a Flutter-based mobile application designed to help users organize and manage tasks efficiently. Built with a clean MVVM (Model-View-ViewModel) architecture, it uses Riverpod for state management and go_router for navigation. The app allows users to create, edit, delete, and filter tasks by priority and category, view task statistics, and customize settings like theme mode.
 Features
 
 Task Management:
