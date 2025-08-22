@@ -10,7 +10,6 @@ Future<void> initializeAppData() async {
   // Initialize theme if not set
   if (!prefs.containsKey('themeMode')) {
     await prefs.setString('themeMode', ThemeMode.light.toString());
-    debugPrint('Initialized themeMode to ThemeMode.light');
   }
   // Initialize categories and tasks
   final categories = [
@@ -41,5 +40,4 @@ Future<void> initializeAppData() async {
   ];
   await prefs.setStringList('categories', categories.map((c) => jsonEncode(c.toJson())).toList());
   await prefs.setStringList('tasks', tasks.map((t) => jsonEncode(t.toJson())).toList());
-  debugPrint('Initialized test data: ${categories.length} categories, ${tasks.length} tasks');
 }
